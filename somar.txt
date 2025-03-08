@@ -1,0 +1,14 @@
+; Comentario
+; x = a + b
+
+.DATA
+15 DB 16
+16 DB 4
+17 DB ?
+
+.CODE
+.ORG 0
+LDA 07	; a
+ADD 08	; b
+STA 09	; x
+HLT
